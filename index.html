@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Importing Tailwind CSS via CDN -->
+    <link 
+        href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" 
+        rel="stylesheet"
+    >
+
+    <title>Gooogle</title>
+</head>
+<body>
+    <!-- header -->
+    <div class="flex justify-between text-sm text-gray-700">
+        <div class="flex items-center">
+            <a href="/#" class="block p-3">About</a>
+            <a href="/#" class="block p-3">Store</a>
+        </div>
+        <div class="flex items-center">
+            <a href="/#" class="block p-3">Gmail</a>
+            <a href="/#" class="block p-3">Images</a>
+            <img 
+                src="img/kevinadhiguna.png" 
+                alt="profile picture" 
+                style="height: 70px; width: 75px;"
+                class="rounded-full block py-3 px-4"
+            >
+        </div>
+    </div>
+
+    <!-- main -->
+    <div class="flex justify-center pt-20">
+        <div>
+            <img 
+                class="w-2/3 ml-auto mr-auto mb-6" 
+                src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" 
+                alt="Google" 
+            >
+            <div class="flex border border-gray-200 rounded-full p-4 shadow text-xl">
+                <div>🔍</div>
+                <input type="text" class="w-full outline-none px-3">
+            </div>
+            <div class="mt-8 text-center">
+                <button class="mr-3 bg-gray-200 border border-gray-200 py-3 px-4 rounded hover:bg-gray-400 hover:border-gray-500">
+                    Google Search
+                </button>
+                <button class="bg-gray-200 border border-gray-200 py-3 px-4 rounded hover:bg-gray-400 hover:border-gray-500">
+                    I'm feeling lucky
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="fixed bottom-0 bg-gray-200 border-t w-full flex justify-between text-gray-600 text-xs">
+        <div class="flex">
+            <a class="block p-3" href="/#">Advertising</a>
+            <a class="block p-3" href="/#">Business</a>
+            <a class="block p-3" href="/#">How Search Works</a>
+        </div>
+        <div class="flex">
+            <a class="block p-3" href="/#">Privacy</a>
+            <a class="block p-3" href="/#">Terms</a>
+            <a class="block p-3" href="/#">Settings</a>
+        </div>
+    </div>
+
+</body>
+</html>
